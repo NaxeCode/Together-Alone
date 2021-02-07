@@ -99,7 +99,7 @@ class PlayState extends FlxState
 		x = entityLayer.all_Noah[0].pixelX;
 		y = entityLayer.all_Noah[0].pixelY;
 
-		npcs = new FlxTypedGroup<NPC>();
+		npcs = new FlxTypedGroup<NPC>(); 
 
 		noah = new NPC(x, y);
 		noah.text = entityLayer.all_Noah[0].f_string;
